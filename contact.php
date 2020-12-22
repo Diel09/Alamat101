@@ -10,6 +10,8 @@
             include('contact.html');
             echo '<script> alert ("PLease Fill up the Blanks")</script>';  
         } else {
+            include('index.html');
+            echo '<script> alert ("Submitted Successfuly")</script>';
             $to = "Alamat101@gmail.com";
         }
     }
