@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Alamat101</title>
+        <link type="text/css" rel="stylesheet" href="style.css" ><link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.6.3/css/all.css">
+		<script src="main.js"> </script>
+	</head>
+    
+	<body>
+		<div class="dropdown">
+			<nav>
+				<img class="logo" src="logo.png">
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="mgaAlamat.php">MGA ALAMAT</a></li>
+					<li><a href="contact.html">CONTACT US</a></li>
+				</ul>			
+			</nav>
+		</div>
+		<div class="wrapper">
+			<h2>Contact us</h2>
+			<div id="error_message"></div>
+			<form action="contact.php" id="myform" method="post">
+				<div class="input_field">
+				<input type="text" placeholder="Name" id="name" name="name">
+				</div>
+				<div class="input_field">
+					<input type="text" placeholder="Phone" id="phone" name="phone">
+				</div>
+				<div class="input_field">
+					<input type="text" placeholder="Email" id="email" name="email">
+				</div>
+				<div class="input_field">
+					<textarea placeholder="Message" id="message" name="msg"></textarea>
+				</div>
+				<div class="btn">
+					<input type="submit" name="send" value="Submit">
+				</div>
+			</form>
+		</div>
+    </body>    
+</html>
